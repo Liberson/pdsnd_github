@@ -214,8 +214,8 @@ def raw_data(df,view_raw_data):
         line =1
         number_of_row = df.shape[0]
         while row < number_of_row:
-            print("\n")
-            print("{} \n".format(df.iloc[row,1:-1]))
+            
+            print("\n {} \n".format(df.iloc[row,1:-1]))
             row +=1
             if line == 5:
                  view_raw_data = str(input('Do you want to view next 5 rows of raw data? Enter yes or no.\n')).lower().strip()
@@ -234,7 +234,7 @@ def main():
     while True:        
         city, month, day = get_filters()
         df = load_data(city, month, day)
-        #print(df)
+        print(df)
 
         time_stats(df)
         station_stats(df)
