@@ -5,7 +5,7 @@ Date : 29 June 2020
 Project : BikeShare
 
 ### Description
-Describe what your project is about and what it does
+Description : Analyze Bikeshare Data
 
 ### Files used
 Include the files used
